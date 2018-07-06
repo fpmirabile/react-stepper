@@ -71,6 +71,8 @@ export default class Step extends Component {
             activeTitle: {
                 color: activeTitleColor,
                 opacity: activeTitleOpacity,
+                fontFamily: 'geomanist-bold',
+                fontWeight: 'bold'
             },
             completedTitle: {
                 color: completeTitleColor,
