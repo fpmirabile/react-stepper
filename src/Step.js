@@ -15,7 +15,7 @@ export default class Step extends Component {
       circleTop, titleTop, width, completeOpacity, activeOpacity, defaultOpacity,
       completeTitleOpacity, activeTitleOpacity, defaultTitleOpacity, barStyle, defaultBarColor,
       completeBarColor, defaultBorderColor, completeBorderColor, activeBorderColor,
-      defaultBorderStyle,completeBorderStyle, activeBorderStyle
+      defaultBorderStyle,completeBorderStyle, activeBorderStyle, borderHeight
     } = this.props;
 
     return {
@@ -79,7 +79,7 @@ export default class Step extends Component {
       leftBar: {
         position: 'absolute',
         top: circleTop + size / 2,
-        height: 1,
+        height: borderHeight ? borderHeight : 1,
         borderTopStyle: barStyle,
         borderTopWidth: 1,
         borderTopColor: defaultBarColor,
@@ -91,7 +91,7 @@ export default class Step extends Component {
       rightBar: {
         position: 'absolute',
         top: circleTop + size / 2,
-        height: 1,
+        height: borderHeight ? borderHeight : 1,
         borderTopStyle: barStyle,
         borderTopWidth: 1,
         borderTopColor: defaultBarColor,
