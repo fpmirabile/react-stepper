@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e239ccf2-02bf-42f6-b7a6-8aa070d30876" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/Step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Step.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stepper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stepper.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="Step.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Step.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+            <state relative-caret-position="302">
+              <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -52,6 +51,7 @@
       <find>height</find>
       <find>height: 1</find>
       <find>borderHeight</find>
+      <find>completeColor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,12 +141,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530881772834</updated>
-      <workItem from="1530881774298" duration="1088000" />
+      <workItem from="1530881774298" duration="1372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1088000" />
+    <option name="totallyTimeSpent" value="1372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -200,8 +200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Step.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+        <state relative-caret-position="302">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
         </state>
       </provider>
     </entry>
