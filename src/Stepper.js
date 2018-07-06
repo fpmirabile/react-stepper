@@ -110,7 +110,7 @@ Stepper.propTypes = {
     defaultBorderStyle: PropTypes.string,
     completeBorderStyle: PropTypes.string,
     activeBorderStyle: PropTypes.string,
-    borderHeight: PropTypes.string
+    borderHeight: PropTypes.number
 };
 
 export default Stepper;

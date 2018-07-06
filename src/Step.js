@@ -79,9 +79,9 @@ export default class Step extends Component {
             leftBar: {
                 position: 'absolute',
                 top: circleTop + size / 2,
-                height: borderHeight ? borderHeight : 1,
+                height: 1,
                 borderTopStyle: barStyle,
-                borderTopWidth: 1,
+                borderTopWidth: borderHeight,
                 borderTopColor: defaultBarColor,
                 left: 0,
                 right: '50%',
@@ -93,7 +93,7 @@ export default class Step extends Component {
                 top: circleTop + size / 2,
                 height: borderHeight ? borderHeight : 1,
                 borderTopStyle: barStyle,
-                borderTopWidth: 1,
+                borderTopWidth: borderHeight,
                 borderTopColor: defaultBarColor,
                 right: 0,
                 left: '50%',
@@ -163,7 +163,7 @@ Step.defaultProps = {
     defaultBarColor: '#E0E0E0',
     barStyle: 'solid',
     borderStyle: 'solid',
-    borderHeight: 0
+    borderHeight: 1
 };
 
 Step.propTypes = {
@@ -201,5 +201,5 @@ Step.propTypes = {
     defaultBorderStyle: PropTypes.string,
     completeBorderStyle: PropTypes.string,
     activeBorderStyle: PropTypes.string,
-    borderHeight: PropTypes.string
+    borderHeight: PropTypes.number
 };
